@@ -1,0 +1,195 @@
+
+.open-sans-normalfont {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.universalColor{
+    color: #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding:15px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.dark2{
+    color:#474747;
+}
+.text-color{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+}
+.paragraph-color{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.secondary-backgrownd{
+background-color: #FFF8F3;    
+}
+.hader{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:50px 150px;
+}
+.nav-title{
+ font-weight: 800px;
+ font-size: 35px;
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+
+}
+nav ul a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+/* uporertuku nav bar er jonno */
+
+.bannargreatting{
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+
+}
+.btn2{
+    background-color:transparent;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 15px;
+
+}
+.bannartitle{
+font-size: 60px;
+font-weight: bold;
+color: #181818;
+margin: 0px;
+}
+.bannardescribtion{
+    color: #757575;
+    margin-top:10px;
+}
+.bannarpicture{
+    width: 580px;
+}
+.bannar-content{
+    width: 580px;
+}
+.bannar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 0px 0px 150px;
+    width: 1100px;
+}
+/* uporertuku headerer jonno  */
+main{
+    max-width: 1140px;
+    margin:0px auto;
+}
+.about{
+    border-radius: 10px;
+    padding:100px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.name{
+    color:#757575;
+    font-size:15px;
+    font-weight: 600px;
+}
+.description{
+    color: #474747;
+    font-size: 15px;
+    font-weight: bold;
+}
+.main-item{
+    display: flex;
+    justify-content: space-around;
+}
+/* other section */
+.python{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    gap:10px;
+    text-align: left;
+}
+.extraname{
+    width: 150px;
+    text-align: left;
+}
+.icon{
+    width: 30px;
+  
+}
+.ido{
+    box-shadow: 0px 6px 50px #FFFFFF;
+    border-radius: 5px;
+}
+/* resume section */
+
+.section-child{
+    width: 500px;
+}
+.resume-main-section{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.resume-title{
+    text-align: center;
+    margin-bottom: 80px;
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 35px;
+font-weight: 700;
+}
+.resume-main-section h3{
+ color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-main-section h4{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 17px;
+font-weight: 600;
+padding-bottom: 15px;
+}
+.resume-main-section p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+}
+.left-section h2{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 30px;
+font-weight: 700;
+}
+.right-section h2
+{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
